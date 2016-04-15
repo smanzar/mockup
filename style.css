@@ -1,0 +1,80 @@
+ul{
+    list-style: none;
+}
+ol{
+    list-style: none;
+}
+ol li{
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0em 2em;
+    text-align: center;
+    line-height: 2em;
+    height: 3em;
+    background: cornflowerblue;   
+    
+}
+.row{
+    margin: 0.5em;
+}
+ol li:hover{
+    background: cyan;
+    color: blue;
+}
+ol li.active{
+    background: cyan;
+}
+li{
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0em 2em;
+    text-align: center;
+    line-height: 3em;
+    height: 3.5em;
+    background: black;
+}
+.merge{
+    display: flex;
+}
+tr:nth-child(odd){
+    background-color: lightcyan;
+}
+table thead tr{
+    background: transparent;
+}
+.bgblue{
+    background: lightblue;
+    border-radius: 0.5em;
+}
+.minus{
+    color: red;
+}
+.green{
+    color: green;
+}
+/*table{
+    width: 45em;
+    height: 10em;
+}*/
+td{
+    text-align: center;
+}
+.blue{
+    color: blue;
+   text-decoration: underline;
+}
+/*.menu1{
+    background: cornflowerblue;
+}*/
+.li1{
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0em 1em;
+    text-align: center;
+    line-height: 1em;
+    height: 3em;
+    background: cornflowerblue;
+}
